@@ -1,0 +1,116 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #474fee;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.kittiz {
+    width: 150px;
+    height: 61.5px;
+
+    position: absolute;
+    top: 3.5px;
+    left: 150px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 18px;
+    right: 500px;
+}
+
+.buttonGame {
+    width: 100px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 18px;
+    right: 350px;
+}
+
+.buttonKittiz {
+    width: 100px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 18px;
+    right: 650px;
+}
+
+@media (max-width: 430px) {
+    .header {
+        height: 62px;
+    }
+    
+    .kittiz {
+        width: 100px;
+        height: 41px;
+
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .button, .buttonGame, .buttonKittiz{
+        width: 75px;
+        height: 22.5px;
+        
+        font-size: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+
+    }
+
+    .button {
+        position: absolute;
+        right: 110px;
+    }
+
+    .buttonKittiz {
+        position: absolute;
+        right: 200px;
+    }
+
+    .buttonGame {
+        position: absolute;
+        right: 20px;
+    }
+}

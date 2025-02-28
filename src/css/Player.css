@@ -6,7 +6,7 @@
 @media (max-width: 670px) {
 
     .playerheader {
-        width: 670px;
+        width: 100%;
     }
 
     .players {

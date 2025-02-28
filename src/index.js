@@ -8,6 +8,7 @@ import Home from "./js/Home";
 import First from "./js/First";
 import Kittiz from "./js/Kittiz";
 import Player from './js/Player';
+import Game from "./js/Game";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,7 @@ root.render(
       <Route path="/First" element={<First />} />
       <Route path="/First/Kittiz" element={<Kittiz />} />
       <Route path="/First/Player" element={<Player />} />
+      <Route path="/First/Game" element={<Game />} />
     </Routes>
   </BrowserRouter>
 );

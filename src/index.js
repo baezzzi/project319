@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './css/index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Home from "./Home";
-import First from "./First";
-import Kittiz from "./Kittiz";
+import Home from "./js/Home";
+import First from "./js/First";
+import Kittiz from "./js/Kittiz";
+import Player from './js/Player';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
       <Route exact path="/" element={<Home />} />
       <Route path="/First" element={<First />} />
       <Route path="/First/Kittiz" element={<Kittiz />} />
+      <Route path="/First/Player" element={<Player />} />
     </Routes>
   </BrowserRouter>
 );

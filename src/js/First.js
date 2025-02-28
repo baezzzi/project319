@@ -1,8 +1,7 @@
 import React from 'react';
 
-import './First.css';
-import logo from './kittiz_logo.png';
-import kittiz from './kittiz.png';
+import '../css/First.css';
+import kittiz from '../image/kittiz.png';
 import { Link } from 'react-router-dom';
 
 const First = () => {
@@ -13,8 +12,8 @@ const First = () => {
                 <img src={kittiz} className='kittiz'></img>
             </Link>
             <Link to='/First/Kittiz' className='buttonKittiz'>KITTIZ</Link>
-            <Link to='/First/LineUp' className='button'>PLAYERS</Link>
-            <Link to='/First/TodayGame' className='buttonGame'>GAMES</Link>
+            <Link to='/First/Player' className='button'>PLAYERS</Link>
+            <Link to='/First/Game' className='buttonGame'>GAMES</Link>
         </div>
     )
 };

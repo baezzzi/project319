@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import kittiz from './kittiz.png';
+import kittiz from '../image/kittiz.png';
 
 const Kittiz = () => {
     return (
@@ -10,8 +10,8 @@ const Kittiz = () => {
                 <img src={kittiz} className='kittiz'></img>
             </Link>
             <Link to='/First/Kittiz' className='buttonKittiz'>KITTIZ</Link>
-            <Link to='/First/LineUp' className='button'>PLAYERS</Link>
-            <Link to='/First/TodayGame' className='buttonGame'>GAMES</Link>
+            <Link to='/First/Player' className='button'>PLAYERS</Link>
+            <Link to='/First/Game' className='buttonGame'>GAMES</Link>
 
             <div className='content'>
                 <div className='contenthead'>구단 인사말</div>

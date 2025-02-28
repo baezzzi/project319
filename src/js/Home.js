@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
-import './Home.css';
-import logo from './kittiz_logo.png';
+import '../css/Home.css';
+import logo from '../image/kittiz_logo.png';
 
 const Home = () => {
     return (

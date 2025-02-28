@@ -1,6 +1,69 @@
-@media (max-width: 430px) {
-    .playerheader {
-        width: 430px;
+@font-face {
+    font-family: 'PyeongChang';
+    src: url('../font/PyeongChang-Regular.otf') format('opentype');
+}
 
+@media (max-width: 670px) {
+
+    .playerheader {
+        width: 670px;
+    }
+
+    .players {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .playerbox {
+        width: 200px;
+        height: 250px;
+
+        background-color: white;
+        
+        border-radius: 10px;
+        border: 1.5px solid #474fee;
+    }
+
+    .p20 {
+        width: 195px;
+        height: 195px;
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        position: relative;
+        top: 2px;
+        left: 2px;
+    }
+
+    .playername {
+        width: 200px;
+        height: 52px;
+
+        background-color: white;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+        position: relative;
+
+        font-family: 'PyeongChang', sans-serif; /* 등록한 폰트 사용 */
+        color: #474fee;
+        font-size: 17px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .playername:hover {
+        background-color: #474fee;
+
+        color: white;
     }
 }

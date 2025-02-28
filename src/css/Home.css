@@ -1,6 +1,6 @@
 .container {
     width : 100%;
-    height : 1000px;
+    height : 1440px;
     background-color: #474fee;
 }
 
@@ -13,12 +13,12 @@
     transform: translateX(-50%);
 }
 
-@media (max-width : 430px) {
+@media (max-width : 670px) {
     .kittyLogo {
-        width: 450px;
-        height: 450px;
+        width: 600px;
+        height: 600px;
 
         position: absolute;
-        top: 200px;
+        top: 400px;
     }
 }

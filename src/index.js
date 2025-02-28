@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes, Router } from 'react-router-dom';
 
 import Home from "./js/Home";
 import First from "./js/First";
@@ -12,7 +12,7 @@ import Game from "./js/Game";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <Router basename="/project319">
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/First" element={<First />} />
@@ -20,7 +20,7 @@ root.render(
       <Route path="/First/Player" element={<Player />} />
       <Route path="/First/Game" element={<Game />} />
     </Routes>
-  </BrowserRouter>
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function

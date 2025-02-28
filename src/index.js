@@ -12,7 +12,7 @@ import Game from "./js/Game";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router basename="/project319">
+  <Router>
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/First" element={<First />} />

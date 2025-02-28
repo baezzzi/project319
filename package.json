@@ -22,7 +22,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "homepage": "https://baezzzi.github.io/project319/",
+  "homepage": "https://baezzzi.github.io/project319",
   "eslintConfig": {
     "extends": [
       "react-app",

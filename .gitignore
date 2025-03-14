@@ -21,11 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
-=======
 
 node_modules/
 build/
 .cache/
 .DS_Store
->>>>>>> 29062de (곧 완료)

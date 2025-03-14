@@ -15,7 +15,7 @@ root.render(
   <HashRouter basename='/'>
     <Routes>
       <Route exact path="/" element={<Home />} />
-      <Route path="/First" element={<First />} />
+      <Route path="/First" element={<Kittiz />} />
       <Route path="/First/Kittiz" element={<Kittiz />} />
       <Route path="/First/Player" element={<Player />} />
       <Route path="/First/Game" element={<Game />} />

@@ -21,8 +21,6 @@ const Kittiz = () => {
             <div className='kittizheader'>
                 <img src={kittizheader} className='kittizheader'></img>
             </div>
-<<<<<<< HEAD
-=======
 
             <div className='contentcontainer' align="center">
                 <div className='content' >
@@ -39,7 +37,6 @@ const Kittiz = () => {
                     <h1>다영아 생일 추카해!!!!!!!!!!!!</h1>
                 </div>
             </div>
->>>>>>> 29062de (곧 완료)
         </div>
     )
 }

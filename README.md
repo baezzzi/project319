@@ -1,5 +1,5 @@
 # 다요 생일 축하해 💙 no kittiz 홈페이지
-<img src="/Users/jiyeon/Desktop/25319프로젝트/홈페이지/project319/ui/1.png" />
+<img src="https://github.com/baezzzi/project319/blob/main/ui/1.png" />
 <br />
 
 ## 프로젝트 소개
